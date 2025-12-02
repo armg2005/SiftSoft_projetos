@@ -1,4 +1,10 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Oblik-Bold", sans-serif;
+}
+
+@font-face {
+  font-family: Oblik-Bold;
+  src: url(/fonts/Oblik_Bold.ttf);
 }
