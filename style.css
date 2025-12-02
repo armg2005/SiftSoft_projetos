@@ -6,7 +6,7 @@
 
 @font-face {                                 /* a fonte da Duracell */
   font-family: Oblik-Bold;
-  src: url(/fonts/Oblik_Bold.ttf);
+  src: url(fonts/Oblik_Bold.ttf);
 }
 
 html {                                       /* pro rolamento ficar lisinho */
