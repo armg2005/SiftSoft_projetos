@@ -1,14 +1,46 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Oblik-Bold", sans-serif; /* a fonte é diferente em alguns lugares, sendo sans-serif creio eu */
+    font-family: "Oblik-Bold", sans-serif;   /* a fonte é diferente em alguns lugares, sendo sans-serif creio eu */
 }
 
-@font-face {                               /* a fonte da Duracell */
+@font-face {                                 /* a fonte da Duracell */
   font-family: Oblik-Bold;
   src: url(/fonts/Oblik_Bold.ttf);
 }
 
-html {                                     /* pro rolamento ficar lisinho */
+html {                                       /* pro rolamento ficar lisinho */
     scroll-behavior: smooth;
+}
+
+#logo {
+    background-color: black;
+    text-align: center;
+    height: 25px;
+    padding: 10px 0;
+}
+
+#logo img {
+    max-height: 100%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c98959;
+}
+
+#navbar div {
+    padding: 10px;
+}
+
+#navbar a { /* Se der tempo, colocar um 'hover' que diminui a opacidade */
+    text-decoration: none;
+    font-size: 14pt;
+    color: white;
+}
+
+#inicio img {
+    padding: 25px 0;
+    width: 100%;
 }
