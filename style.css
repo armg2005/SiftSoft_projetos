@@ -1,10 +1,14 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Oblik-Bold", sans-serif;
+    font-family: "Oblik-Bold", sans-serif; /* a fonte é diferente em alguns lugares, sendo sans-serif creio eu */
 }
 
-@font-face {
+@font-face {                               /* a fonte da Duracell */
   font-family: Oblik-Bold;
   src: url(/fonts/Oblik_Bold.ttf);
+}
+
+html {                                     /* pro rolamento ficar lisinho */
+    scroll-behavior: smooth;
 }
