@@ -44,3 +44,32 @@ html {                                       /* pro rolamento ficar lisinho */
     padding: 25px 0;
     width: 100%;
 }
+
+#encontre-seu-produto-titulo {
+    text-align: center;
+    font-size: 30pt;
+    padding-bottom: 50px;
+}
+
+#encontre-seu-produto {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto; /* Não sei se é a melhor forma de fazer isso, mas tá funcionando */
+}
+
+.produto-imagem-texto {
+    background-color: #f4f4f4;
+    border-radius: 10%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+    /* PRA FAZER:
+    - Padronizar o tamanho das imagens e alinhar elas melhor;
+    - Talvez deixar mais próximo do meio;
+    - Depois que isso tiver bonitinho, partir pra produtos recomendados.
+    */
+}
+
+.produto-texto {
+    font-size: 14pt;
+}
