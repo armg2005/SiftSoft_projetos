@@ -101,3 +101,93 @@ html {                                       /* pro rolamento ficar lisinho */
     padding: 0;
     margin-bottom: 10px;
 }
+
+#prod-recom {
+    background-color: #111111;
+    color: white;
+    padding: 50px 0;
+}
+
+#prod-recom h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#prod-recom-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prod-recom-img-txt {
+    width: 20%;
+}
+
+.prod-recom-img-txt img{
+    width: 310px;
+    height: 310px;
+}
+
+.prod-recom-img-txt h2{
+    font-size: 24pt;
+    width: 300px;
+    padding-top: 40px;
+}
+
+.dura-mais, .detalhe, .tamanho, strong, button {
+    font-family: sans-serif;
+}
+
+.dura-mais {
+    padding: 40px 0;
+    color: #a8a8a8;
+}
+
+.detalhe {
+    color: #a8a8a8;
+    font-size: 10pt;
+}
+
+.tamanho {
+    padding: 30px 0;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    font-size: 12pt;
+    margin-bottom: 25px;
+    background-color: #111111;
+    color: #a8a8a8;
+    border: 1px solid #a8a8a8;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.ativo {
+    border-color: #c98959;
+    color: #c98959;
+}
+
+.comprar {
+    width: 240px;
+    height: 60px;
+    font-size: 12pt;
+    margin-bottom: 25px;
+    background-color: #191a1c;
+    color: #c98959;
+    border: 2px solid #c98959;
+    border-radius: 36px;
+}
+
+.inativo {
+    background-color: #1e1e1e;
+    color: #353535;
+    border: 0;
+} 
+
+
+/* FAZER AMANHÃ, ESPERO
+- colocar uns 'a' que levam ao site oficial, talvez
+- se der tempo, fazer algumas 'animações', como do botão de comprar no 'hover' e 'navbar'
+*/
