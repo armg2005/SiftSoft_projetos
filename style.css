@@ -37,10 +37,15 @@ html {                                       /* pro rolamento ficar lisinho */
     text-align: center;
 }
 
-#navbar a { /* Se der tempo, colocar um 'hover' que diminui a opacidade */
+#navbar a {
     text-decoration: none;
     font-size: 14pt;
     color: white;
+    transition: color 0.3s;
+}
+
+#navbar a:hover {
+    color: rgba(255,255,255,0.5);
 }
 
 #inicio img {
@@ -58,7 +63,7 @@ html {                                       /* pro rolamento ficar lisinho */
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: auto auto auto auto auto auto; /* Não sei se é a melhor forma de fazer isso, mas tá funcionando */
+    grid-template-columns: auto auto auto auto auto auto;
 }
 
 .produto-imagem-texto {
@@ -70,22 +75,18 @@ html {                                       /* pro rolamento ficar lisinho */
     padding: 10px;
     padding-top: 30px;
     margin: 10px;
-
-    /* PRA FAZER:
-    - Padronizar o tamanho das imagens e alinhar elas melhor;
-    - Talvez deixar mais próximo do meio;
-    - Depois que isso tiver bonitinho, partir pra produtos recomendados.
-    */
 }
 
 .produto-texto {
     font-size: 14pt;
+    cursor: pointer;
 }
 
 .produto-imagem img {
     width: 100px;
     height: 110px;
     padding: 20px;
+    cursor: pointer;
 }
 
 #pilha-aud {
@@ -126,12 +127,14 @@ html {                                       /* pro rolamento ficar lisinho */
 .prod-recom-img-txt img{
     width: 310px;
     height: 310px;
+    cursor: pointer;
 }
 
 .prod-recom-img-txt h2{
     font-size: 24pt;
     width: 300px;
     padding-top: 40px;
+    cursor: pointer;
 }
 
 .dura-mais, .detalhe, .tamanho, strong, button {
@@ -178,9 +181,15 @@ button {
     color: #c98959;
     border: 2px solid #c98959;
     border-radius: 36px;
+    transition: color 0.5s, background-color 0.5s;
 }
 
-.inativo {
+.comprar:hover {
+    background-color: white;
+    color: black;
+}
+
+#inativo {
     background-color: #1e1e1e;
     color: #353535;
     border: 0;
