@@ -369,11 +369,6 @@ button {
     color: white;
 }
 
-/* Botão Carregar Mais */
-.load-more {
-    margin-top: 50px;
-    text-align: center;
-}
 
 .load-more button {
     padding: 15px 50px;
